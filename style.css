@@ -1,0 +1,121 @@
+/* smart Phoned */
+@media screen and (max-width:765px) {
+    .menu-icon{
+        display: block;
+    }
+    .nav ul{
+        position: fixed;
+        display: none;
+    }    
+    
+    .header{
+        height: 80px;
+    }
+    .toggle-menu:checked ~ .nav ul {
+        display: block;
+    }
+}
+/* Tablets */
+@media screen and (min-width:768px)and (max-width:1024px) {
+    
+    .menu-icon{
+        display: none;
+    }
+    .nav ul li{
+        display: block;
+    } 
+    .toggle-menu{
+    display: none;
+}
+}
+/* laptops */
+@media screen and (min-width:1024px)  {
+    .menu-icon{
+        display: none;
+    }
+    .toggle-menu{
+    display: none;
+}
+
+}
+.menu-icon{
+    color: aliceblue;
+    font-size: 30px;
+    float: right;
+}
+.nav ul{
+    list-style: none;
+    float: right;
+    padding: 16px;
+}
+a{
+    text-decoration-line: none; 
+    
+}
+.nav ul li{
+    display: inline;
+    margin: 5px;
+}
+.header{
+    background-color: rgb(12, 12, 12);
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+a:hover{
+    opacity: 0.5;
+    
+}
+.footer{
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.fa{
+    padding: 8px;
+    margin: 5px;
+    font-size:50px;
+}
+.fa-twitter{
+    background-color: blue;
+    color: aliceblue;
+    border-radius:30px;
+}
+.fa-github{
+
+    color: aliceblue;
+    border-radius:40px;
+}
+.fa-linkedin{
+
+    color: aliceblue;
+    border-radius:30px;
+}
+.home{
+    background-image: url(../img/pexels-pixabay-206359.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    top: 80px;
+    left: 0px;
+    position:absolute;
+}
+.riz{
+    height: 150px;
+    width: 150px;
+    position: relative;
+}
+.info{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 2%;
+    stroke: black;
+    font-size: 20px;
+}
